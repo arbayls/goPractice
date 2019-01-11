@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func main () {
-  fmt.Println("Hello World!")
+	"github.com/hello_go/helpers"
+)
+
+func main() {
+	fmt.Println(helpers.Greet("World!"))
 }
